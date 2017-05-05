@@ -20,13 +20,13 @@ A copy of the MCUXpresso IDE is freely avaliable on NXP's [servers](http://www.n
 ### Project Setup
 Let's start by creating a new MCUXpresso c/c++ project:
 
-![](/images/NewProject.PNG)
+![](/Images/NewProject.PNG)
 
 Select the LPC54608 devboard in the Device Selection Page and hit 'Next' to configure the compiler.
 
 On the first page of project settings choose an appropriate name, deactiate semi-hosting and select all Freescale drivers, with no OS sources to be included.
 
-![](/images/ProjectSettings.PNG)
+![](/Images/ProjectSettings.PNG)
 
 Hit Finish and continue to import our sources!
 
@@ -34,7 +34,7 @@ Hit Finish and continue to import our sources!
 
 Delete the pre-made contents in the projects source folder and drag our code into the project directory. Choose to copy files into the project. Press F5 to refresh the project's filesystem within MCUXpresso.
 
-![](/images/files.PNG)
+![](/Images/files.PNG)
 
 eFGX is an embedded graphics library with drivers for the LPC54608 provided by Eli Hughes [here](https://github.com/ehughes/eGFX) and pre-included within this project.
 
